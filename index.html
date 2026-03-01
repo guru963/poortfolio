@@ -20,8 +20,9 @@
         <div class="nav-links" id="navLinks">
             <a href="#home">Home</a>
             <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
             <a href="#projects">Projects</a>
+            <a href="#reviews">Reviews</a>
             <a href="#contact">Contact</a>
         </div>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -36,8 +37,7 @@
             <span data-reveal class="hero-title--stroke">Developer</span>
         </h1>
         <p class="hero-desc" data-reveal>
-            I'm a passionate student at Shiv Nadar University, building modern web applications 
-            and AI-powered solutions. I turn ideas into impactful digital experiences.
+           I'm a freelance developer with 2 years of hands-on experience crafting modern web applications and AI-driven solutions for real-world needs. I specialize in transforming ideas into scalable, high-impact digital experiences.
         </p>
         <div class="hero-cta" data-reveal>
             <a href="#contact" class="btn btn--primary">Get in Touch</a>
@@ -76,375 +76,299 @@
     </div>
 </section>
 
-<!-- EDUCATION -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- EDUCATION — Horizontal Timeline Redesign                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <section class="education" id="education">
     <div class="section-label">Education</div>
     <h2 class="section-title" data-reveal>Academic <em>Journey</em></h2>
 
-    <div class="edu-list">
-        <div class="edu-item" data-edu>
-            <div class="edu-year">2024 — 2028</div>
-            <div class="edu-card">
-            <div class="edu-body">
-                <div class="edu-badge">University</div>
-                <h3>B.Tech Artificial Intelligence and Data Science</h3>
-                <p>Shiv Nadar University, Chennai</p>
-            </div>
-            </div>
-           
+    <div class="timeline-wrap">
+        <!-- animated line -->
+        <div class="timeline-line">
+            <div class="timeline-line-fill" id="timelineFill"></div>
         </div>
-        <div class="edu-item" data-edu>
-            <div class="edu-year">2023 — 2024</div>
-            <div class="edu-card">
-            <div class="edu-body">
-                <div class="edu-badge">Class XII · CBSE</div>
-                <h3>97.4% — Computer Science Stream</h3>
-                <p>Amrita Vidyalayam</p>
+
+        <div class="timeline-milestones">
+
+            <div class="milestone" data-milestone>
+                <div class="milestone-dot"></div>
+                <div class="milestone-content">
+                    <span class="milestone-year">2021</span>
+                    <h3 class="milestone-title">Class X — 98%</h3>
+                    <p class="milestone-desc">Amrita Vidyalayam · CBSE</p>
+                </div>
             </div>
+
+            <div class="milestone" data-milestone>
+                <div class="milestone-dot"></div>
+                <div class="milestone-content">
+                    <span class="milestone-year">2023</span>
+                    <h3 class="milestone-title">Class XII — 97.4%</h3>
+                    <p class="milestone-desc">Computer Science Stream · CBSE</p>
+                </div>
             </div>
-            
+
+            <div class="milestone" data-milestone>
+                <div class="milestone-dot"></div>
+                <div class="milestone-content">
+                    <span class="milestone-year">2024</span>
+                    <h3 class="milestone-title">B.Tech — AI &amp; Data Science</h3>
+                    <p class="milestone-desc">Shiv Nadar University, Chennai</p>
+                </div>
+            </div>
+
+            <div class="milestone milestone--future" data-milestone>
+                <div class="milestone-dot"></div>
+                <div class="milestone-content">
+                    <span class="milestone-year">2028</span>
+                    <h3 class="milestone-title">Graduation</h3>
+                    <p class="milestone-desc">Expected · Full Stack + AI Engineer</p>
+                </div>
+            </div>
+
         </div>
-        <div class="edu-item" data-edu>
-            <div class="edu-year">2021 — 2022</div>
-            <div class="edu-card">
-            <div class="edu-body">
-                <div class="edu-badge">Class X · CBSE</div>
-                <h3>98% — All Subjects</h3>
-                <p>Amrita Vidyalayam</p>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- SERVICES                                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="services" id="services">
+    <div class="section-label">What I Do</div>
+    <h2 class="section-title" data-reveal>My <em>Services</em></h2>
+
+    <div class="services-grid">
+
+        <div class="service-card" data-service>
+            <div class="service-icon-wrap">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 44h16M24 36v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M14 20l6 5-6 5M20 30h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </div>
+            <div class="service-body">
+                <h3 class="service-title">Full Website Creation</h3>
+                <p class="service-desc">End-to-end design and development of performant, responsive websites with polished UX and scalable architecture.</p>
             </div>
-            
+            <div class="service-arrow">→</div>
         </div>
+
+        <div class="service-card" data-service>
+            <div class="service-icon-wrap">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12h32v24H8z" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 20h32" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 28h16M20 32h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="13" cy="16" r="1.5" fill="currentColor"/>
+                    <circle cx="18" cy="16" r="1.5" fill="currentColor"/>
+                    <circle cx="23" cy="16" r="1.5" fill="currentColor"/>
+                </svg>
+            </div>
+            <div class="service-body">
+                <h3 class="service-title">Landing Page Development</h3>
+                <p class="service-desc">High-converting, visually stunning landing pages engineered for impact — from hero to CTA, pixel-perfect on every screen.</p>
+            </div>
+            <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card" data-service>
+            <div class="service-icon-wrap">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/>
+                    <path d="M24 14V8M24 40v-6M14 24H8M40 24h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M17 17l-4-4M35 35l-4-4M31 17l4-4M13 35l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="24" cy="24" r="4" fill="currentColor" opacity="0.4"/>
+                </svg>
+            </div>
+            <div class="service-body">
+                <h3 class="service-title">AI Full Stack Projects</h3>
+                <p class="service-desc">Full-stack applications powered by AI — LLM integrations, intelligent backends, and sleek interfaces for next-gen products.</p>
+            </div>
+            <div class="service-arrow">→</div>
+        </div>
+
     </div>
 </section>
 
 <!-- SKILLS -->
-<section class="skills" id="skills">
-    <div class="section-label">Skills</div>
-    <h2 class="section-title" data-reveal>My <em>Stack</em></h2>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PROJECTS — Tabbed System                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section id="projects" class="project">
 
-    <div class="skills-grid">
-        <!-- Frontend -->
-        <div class="skill-group" data-skill-group>
-            <h3 class="skill-group-title">
-                <span class="skill-group-icon">◈</span> Frontend
-            </h3>
-            <div class="skill-bars">
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>HTML5 / CSS3</span><span class="skill-pct">92%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>JavaScript (ES6+)</span><span class="skill-pct">85%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>React.js</span><span class="skill-pct">80%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>TypeScript</span><span class="skill-pct">70%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>Tailwind CSS</span><span class="skill-pct">78%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>GSAP / Framer Motion</span><span class="skill-pct">75%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
-                </div>
-            </div>
-        </div>
+  <h5>— check out some</h5>
+  <h2>Stuff I've worked on</h2>
 
-        <!-- Backend -->
-        <div class="skill-group" data-skill-group>
-            <h3 class="skill-group-title">
-                <span class="skill-group-icon">◉</span> Backend
-            </h3>
-            <div class="skill-bars">
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>Node.js / Express</span><span class="skill-pct">78%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>Python (Flask/FastAPI)</span><span class="skill-pct">72%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>REST API Design</span><span class="skill-pct">80%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>MongoDB</span><span class="skill-pct">75%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>PostgreSQL / MySQL</span><span class="skill-pct">65%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <div class="skill-bar-label"><span>Git / Docker</span><span class="skill-pct">70%</span></div>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
-                </div>
-            </div>
-        </div>
+  <!-- Tab Switcher -->
+  <div class="project-tabs" role="tablist">
+    <button class="project-tab active" data-tab="web" role="tab" aria-selected="true">Web Development</button>
+    <button class="project-tab" data-tab="ai" role="tab" aria-selected="false">AI Projects</button>
+    <div class="project-tab-indicator"></div>
+  </div>
 
-        <!-- Soft Skills -->
-        <div class="skill-group skill-group--soft" data-skill-group>
-            <h3 class="skill-group-title">
-                <span class="skill-group-icon">◎</span> Soft Skills
-            </h3>
-            <div class="soft-skills-grid">
-                <div class="soft-skill" data-soft="95">
-                    <svg class="soft-ring" viewBox="0 0 120 120">
-                        <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="8"/>
-                        <circle class="soft-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="314" transform="rotate(-90 60 60)"/>
-                    </svg>
-                    <div class="soft-label">
-                        <span class="soft-pct">0%</span>
-                        <span>English</span>
-                    </div>
-                </div>
-                <div class="soft-skill" data-soft="88">
-                    <svg class="soft-ring" viewBox="0 0 120 120">
-                        <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="8"/>
-                        <circle class="soft-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="314" transform="rotate(-90 60 60)"/>
-                    </svg>
-                    <div class="soft-label">
-                        <span class="soft-pct">0%</span>
-                        <span>Teamwork</span>
-                    </div>
-                </div>
-                <div class="soft-skill" data-soft="82">
-                    <svg class="soft-ring" viewBox="0 0 120 120">
-                        <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="8"/>
-                        <circle class="soft-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="314" transform="rotate(-90 60 60)"/>
-                    </svg>
-                    <div class="soft-label">
-                        <span class="soft-pct">0%</span>
-                        <span>Leadership</span>
-                    </div>
-                </div>
-                <div class="soft-skill" data-soft="90">
-                    <svg class="soft-ring" viewBox="0 0 120 120">
-                        <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="8"/>
-                        <circle class="soft-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="314" transform="rotate(-90 60 60)"/>
-                    </svg>
-                    <div class="soft-label">
-                        <span class="soft-pct">0%</span>
-                        <span>Problem Solving</span>
-                    </div>
-                </div>
-            </div>
+  <!-- ================= WEB PROJECTS ================= -->
+  <div class="project-panel active" id="tab-web">
+    <div class="project-item-container">
+
+      <!-- Paris Mystery -->
+      <div class="project-box">
+        <a href="https://guru963.github.io/parismystery/" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://github.com/guru963/parismystery" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://guru963.github.io/parismystery/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
         </div>
+        <div class="project-box__content">
+          <h3>Paris Mystery</h3>
+          <h5>HTML • CSS • JavaScript</h5>
+        </div>
+      </div>
+
+      <!-- Vedic Creation -->
+      <div class="project-box">
+        <a href="https://userside-2f0hgepwg-gururaman2006-gmailcoms-projects.vercel.app/" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://userside-2f0hgepwg-gururaman2006-gmailcoms-projects.vercel.app/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+        </div>
+        <div class="project-box__content">
+          <h3>Vedic Creation</h3>
+          <h5>React • Node.js • MongoDB</h5>
+        </div>
+      </div>
+
+      <!-- Food Delivery App -->
+      <div class="project-box">
+        <a href="https://github.com/guru963/SKIPQ" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://github.com/guru963/SKIPQ" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="project-box__content">
+          <h3>Food Delivery App</h3>
+          <h5>MERN Stack</h5>
+        </div>
+      </div>
+
     </div>
+  </div>
+
+  <!-- ================= AI PROJECTS ================= -->
+  <div class="project-panel" id="tab-ai">
+    <div class="project-item-container">
+
+      <!-- AI Interview Pro -->
+      <div class="project-box">
+        <a href="https://github.com/guru963/AI-interview-BOT" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://github.com/guru963/AI-interview-BOT" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="project-box__content">
+          <h3>AI Interview Pro</h3>
+          <h5>OpenCV • MediaPipe • Whisper • Gemini</h5>
+        </div>
+      </div>
+
+      <!-- VidEdu -->
+      <div class="project-box">
+        <a href="https://github.com/guru963/VIDEDU" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://github.com/guru963/VIDEDU" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="project-box__content">
+          <h3>VidEdu</h3>
+          <h5>Manim • TTS • FFmpeg • Streamlit</h5>
+        </div>
+      </div>
+
+      <!-- Task Manager -->
+      <div class="project-box">
+        <a href="https://github.com/guru963/task-manager" target="_blank" class="project-box__absolute-link"></a>
+        <div class="project-box__link">
+          <a href="https://github.com/guru963/task-manager" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="project-box__content">
+          <h3>Task Manager</h3>
+          <h5>Node.js • Express • MongoDB • JWT</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= FULL STACK / CORE ================= -->
+
 </section>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- CLIENT REVIEWS                                             -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="reviews" id="reviews">
+    <div class="section-label">Testimonials</div>
 
-<!-- PROJECTS -->
-<!-- PROJECTS -->
-<!-- PROJECTS -->
-<section class="projects" id="projects">
+    <div class="reviews-layout">
 
-    <div class="section-label">Projects</div>
-    <h2 class="section-title" data-reveal>Selected <em>Work</em></h2>
+        <!-- LEFT: Quote mark -->
+        <div class="reviews-left">
+            <div class="quote-giant" data-reveal-reviews>
+                <svg class="quote-svg" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 90V54C0 36 8 20 24 6L33 15C22 26 16 38 15 52H30V90H0ZM66 90V54C66 36 74 20 90 6L99 15C88 26 82 38 81 52H96V90H66Z" fill="currentColor" opacity="0.12"/>
+                </svg>
+            </div>
+            <h2 class="reviews-heading" data-reveal>What Clients <em>Say</em></h2>
+            <p class="reviews-sub" data-reveal>Real feedback from people I've had the pleasure of working with.</p>
+        </div>
 
-    <div class="projects-list">
+        <!-- RIGHT: Horizontal scroll cards -->
+        <div class="reviews-right">
+            <div class="reviews-track" id="reviewsTrack">
 
-        <!-- 01 Task Manager -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner">
-
-                <div class="project-meta">
-                    <span class="project-num">01</span>
-                    <span class="project-year">2024</span>
+                <div class="review-card" data-review>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Delivered an exceptional landing page that converted far beyond our expectations. The attention to animation and detail was unreal for paris mystery."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">D</div>
+                        <div>
+                            <div class="review-name">Deveash</div>
+                            <div class="review-role">Founder, Elevate</div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="project-content">
-                    <h3>Task Manager</h3>
-                    <p>
-                        A full-stack collaborative task management platform with JWT authentication, RBAC and scalable API services supporting 100+ task operations per session with Kanban and Table views.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Node.js</span><span>Express</span><span>JWT</span><span>MongoDB</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/guru963/task-manager" target="_blank" class="proj-link">GitHub →</a>
+                <div class="review-card" data-review>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Built our AI dashboard in record time. Clean code, great communication, and the final product looked incredibly polished."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">R</div>
+                        <div>
+                            <div class="review-name">Rahul Mehta</div>
+                            <div class="review-role">Freelancer</div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="project-visual">
-                    <img src="image1.png" alt="Task Manager">
+                <div class="review-card" data-review>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Our website went from average to stunning. The animations are smooth, the mobile experience is flawless. Highly recommend."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">B</div>
+                        <div>
+                            <div class="review-name">BK Agarwal</div>
+                            <div class="review-role">Product Lead, Rudra Ripples</div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-        </div>
 
-
-        <!-- 02 AI Interview Pro -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner project-card-inner--reverse">
-
-                <div class="project-meta">
-                    <span class="project-num">02</span>
-                    <span class="project-year">2024</span>
-                </div>
-
-                <div class="project-content">
-                    <h3>AI Interview Pro</h3>
-                    <p>
-                        AI-powered interview evaluation platform integrating OpenCV, MediaPipe, Whisper and Gemini API to generate structured behavioral scoring and hire-readiness insights.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Flask</span><span>OpenCV</span><span>MediaPipe</span><span>Whisper</span><span>Gemini API</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/guru963/AI-interview-BOT" target="_blank" class="proj-link">GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-visual">
-                    <img src="image2.png" alt="AI Interview Pro">
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- 03 VidEdu -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner">
-
-                <div class="project-meta">
-                    <span class="project-num">03</span>
-                    <span class="project-year">2024</span>
-                </div>
-
-                <div class="project-content">
-                    <h3>VidEdu</h3>
-                    <p>
-                        Automated learning content generation system converting Python concepts into structured narrated videos using script generation, animation rendering and FFmpeg synchronization.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Streamlit</span><span>Manim</span><span>FFmpeg</span><span>TTS</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/guru963/VIDEDU" target="_blank" class="proj-link">GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-visual">
-                    <img src="image3.png" alt="VidEdu">
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- 04 Paris Mystery -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner project-card-inner--reverse">
-
-                <div class="project-meta">
-                    <span class="project-num">04</span>
-                    <span class="project-year">2024</span>
-                </div>
-
-                <div class="project-content">
-                    <h3>Paris Mystery</h3>
-                    <p>
-                        A modern e-commerce website for a perfume brand built using HTML, CSS and JavaScript with responsive UI, smooth interactions and product showcase features.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://guru963.github.io/parismystery/" target="_blank" class="proj-link">Live →</a>
-                        <a href="https://github.com/guru963/parismystery" target="_blank" class="proj-link">GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-visual">
-                    <img src="image4.png" alt="Paris Mystery">
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- 05 Vedic Creation -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner">
-
-                <div class="project-meta">
-                    <span class="project-num">05</span>
-                    <span class="project-year">2024</span>
-                </div>
-
-                <div class="project-content">
-                    <h3>Vedic Creation</h3>
-                    <p>
-                        An e-commerce platform for Vedic products featuring astrology consultations, Pandit booking system and modern UI inspired by platforms like Astrotalk.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>React</span><span>Node.js</span><span>MongoDB</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://userside-2f0hgepwg-gururaman2006-gmailcoms-projects.vercel.app/" target="_blank" class="proj-link">Live →</a>
-                    </div>
-                </div>
-
-                <div class="project-visual">
-                    <img src="image5.png" alt="Vedic Creation">
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- 06 Food Delivery App -->
-        <div class="project-card" data-project>
-            <div class="project-card-inner project-card-inner--reverse">
-
-                <div class="project-meta">
-                    <span class="project-num">06</span>
-                    <span class="project-year">2024</span>
-                </div>
-
-                <div class="project-content">
-                    <h3>Food Delivery App</h3>
-                    <p>
-                        A MERN stack food delivery application supporting product browsing, filtering, cart management and secure checkout with payment integration.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/guru963/SKIPQ" target="_blank" class="proj-link">GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-visual">
-                    <img src="image6.png" alt="Food Delivery App">
-                </div>
-
+            <!-- scroll buttons -->
+            <div class="reviews-nav">
+                <button class="reviews-nav-btn" id="reviewPrev" aria-label="Previous">←</button>
+                <button class="reviews-nav-btn" id="reviewNext" aria-label="Next">→</button>
             </div>
         </div>
 
     </div>
 </section>
+
 <!-- CONTACT -->
 <section class="contact" id="contact">
     <div class="section-label">Contact</div>
@@ -506,10 +430,11 @@
 </section>
 
 <footer class="footer">
-    <p>© 2024 — Designed & Built with intent.</p>
-    <p class="footer-stack">HTML · CSS · JS · GSAP</p>
+    <p>© 2026 — Designed & Built with intent.</p>
 </footer>
 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="first.js"></script>
